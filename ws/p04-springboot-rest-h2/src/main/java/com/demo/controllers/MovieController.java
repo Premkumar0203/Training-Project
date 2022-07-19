@@ -37,4 +37,8 @@ public class MovieController {
 	public Movie saveMovie(@RequestBody Movie movie){
 		return service.createNewMovie(movie);
 	}
+	
+	// update 
+	// delete
+	// findByTitle
 }
