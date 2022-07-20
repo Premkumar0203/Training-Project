@@ -1,6 +1,6 @@
 package com.demo.services;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -57,5 +57,25 @@ public class MovieService {
 		return dbMovie;
 		
 	}
+
+	public List<Movie> findByTitle(String title) {
+		if(title!=null) {			
+			return repo.findByTitle(title);
+		} else {
+			return new ArrayList<Movie>();
+		}
+	}
+	
+	public List<Movie> findByTitleAndRating(String title, double rating) {
+	
+		if(rating>0) {
+			return repo.findByTitleAndRating(title, rating);			
+		} else {
+			return repo.findByTitle(title);
+		}
+		
+	}
+	
+	
 
 }
