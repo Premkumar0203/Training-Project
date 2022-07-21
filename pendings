@@ -1,10 +1,14 @@
 
 
 Spring Test 
-Writing a REST Client
 
+
+Authentication vs Authorization
 
 Spring Security to configure Basic Authentication and JWT 
+
+Customer cus = repo.findByUsername()
+new User(cus.getUsername(), cus.getPassword(), roles);
 
 Implementation: Microservices Concept 
 
