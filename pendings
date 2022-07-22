@@ -1,22 +1,12 @@
-
-
 Spring Test 
 
-
-Authentication vs Authorization
-
-Spring Security to configure Basic Authentication and JWT 
-
-Customer cus = repo.findByUsername()
-new User(cus.getUsername(), cus.getPassword(), roles);
-
-Implementation: Microservices Concept 
 
 Working with swagger 
 12 Factor Principles 
 Handle Circular dependencies 
 Dependency Injection 
 Environment based setting
+
 
 
 Kafka
