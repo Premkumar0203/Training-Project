@@ -1,3 +1,62 @@
-Spring Test 
+
+Angular - 3 - 2
+	learning = takes time
+		directives
+		components
+		modules
+		routing
+		ajax
+		forms
+		services
+		pipes
+	
+
+Do not use -> powershell
 
 
+	$ download and install nodejs -> npm is subset -> 16
+		$ node -v
+		$ npm -v
+	$ npm install -g @angular/cli
+		$ ng version
+	$ ng new proj
+	
+	install dependencies
+	$ npm i
+	
+	$ npm run start
+	
+
+
+
+if(condition){
+  // statement
+}
+
+
+if(condition)
+{
+  // statement
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
