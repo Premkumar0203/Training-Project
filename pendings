@@ -1,15 +1,31 @@
 
 Angular - 3 - 2
 	learning = takes time
-		directives
 		components
+		
+			directives
+
+		services
+		ajax
+		
 		modules
 		routing
-		ajax
+		
 		forms
-		services
 		pipes
 	
+
+html
+	<p>some text</p>
+	<app-button>Home</app-button>
+	start tag    content     end tag
+	
+	
+	<br/>, <hr/>
+	<img src="link"/>, <input type="text" placeholder="Enter some data"/>
+	<p class="..">content</p>, <h1>content</h1>
+	<a href="link">text</a>
+
 
 Do not use -> powershell
 
