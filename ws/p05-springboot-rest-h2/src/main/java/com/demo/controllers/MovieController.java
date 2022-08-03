@@ -17,9 +17,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.demo.entities.Movie;
 import com.demo.services.MovieService;
 
+
 @RestController
 //@CrossOrigin
-@CrossOrigin(origins = {"https://hoppscotch.io/"})
+@CrossOrigin(origins = {"https://hoppscotch.io/", "http://localhost:4200/"})
 @RequestMapping("/api/v1/movies")
 public class MovieController {
 

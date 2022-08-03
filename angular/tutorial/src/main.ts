@@ -6,6 +6,12 @@ import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
 // import { AppModule } from "./04-components2/app.module";
 // import { AppModule } from "./04-components3/app.module";
 // import { AppModule } from "./05-directives/app.module";
-import { AppModule } from "./06-directives-structral/app.module";
+// import { AppModule } from "./06-directives-structral/app.module";
+// import { AppModule } from "./07-services/app.module";
+// import { AppModule } from "./08-ajax/app.module";
+// import { AppModule } from "./09-routing/app.module";
+// import { AppModule } from "./10-routing-params/app.module";
+// import { AppModule } from "./11-lazy-load/app.module";
+import { AppModule } from "./12-gurad/app.module";
 
 platformBrowserDynamic().bootstrapModule(AppModule)
