@@ -12,6 +12,8 @@ import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
 // import { AppModule } from "./09-routing/app.module";
 // import { AppModule } from "./10-routing-params/app.module";
 // import { AppModule } from "./11-lazy-load/app.module";
-import { AppModule } from "./12-gurad/app.module";
+// import { AppModule } from "./12-gurad/app.module";
+// import { AppModule } from "./13-forms/app.module";
+import { AppModule } from "./14-pipes/app.module";
 
 platformBrowserDynamic().bootstrapModule(AppModule)
