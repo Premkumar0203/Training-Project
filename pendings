@@ -1,19 +1,11 @@
 
 Angular - 3 - 2
-	learning = takes time
-		components
-		
-			directives
 
-		services
-		ajax
 		
-		modules
-		routing
 		
-		forms
-		pipes
+		bootstrap, material, store, logging, exception handling, debugging
 	
+
 
 html
 	<p>some text</p>
