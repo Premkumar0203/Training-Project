@@ -22,10 +22,10 @@ public class MovieService {
 	
 	public Movie findOneById(int id) {
 		Optional<Movie> optional = repo.findById(id);
-		if(optional.isEmpty()) {
-			throw new RuntimeException("Could not find movie with id: "+id);
-		} else {
+		if(optional.isPresent()) {
 			return optional.get();
+		} else {
+			throw new RuntimeException("Could not find movie with id: "+id);
 		}
 	}
 	
