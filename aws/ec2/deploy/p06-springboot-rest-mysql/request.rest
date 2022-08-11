@@ -1,16 +1,16 @@
-GET http://localhost:8080/api/v1/movies
+GET http://3.91.240.112:8080/api/v1/movies
 
 ###
 
-GET http://localhost:8080/api/v1/movies/2
+GET http://3.91.240.112:8080/api/v1/movies/2
 
 ###
 
-GET http://localhost:8080/api/v1/movies/22
+GET http://3.91.240.112:8080/api/v1/movies/22
 
 ###
 
-POST http://localhost:8080/api/v1/movies
+POST http://3.91.240.112:8080/api/v1/movies
 content-type: application/json
 
 {
@@ -21,7 +21,7 @@ content-type: application/json
 
 ###
 
-PUT http://localhost:8080/api/v1/movies/6
+PUT http://3.91.240.112:8080/api/v1/movies/6
 content-type: application/json
 
 {
@@ -32,6 +32,6 @@ content-type: application/json
 
 ###
 
-DELETE http://localhost:8080/api/v1/movies/2
+DELETE http://3.91.240.112:8080/api/v1/movies/5
 
 

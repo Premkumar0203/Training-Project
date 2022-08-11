@@ -54,6 +54,6 @@ $ unzip filename.zip
 	$ rm -rf icons
 	
 	
-	$ cp /home/ec2-user/tutorial/*.* .
+	$ cp /home/ec2-user/apps/style-demo/*.* .
 	
 	$ sudo service nginx start
